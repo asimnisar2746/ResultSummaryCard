@@ -125,6 +125,23 @@ button:hover{
     background: hsl(252, 100%, 67%);
     transition: 0.20s;
 }
-
+@media(max-width: 720px){
+    .leftContainer{
+        width: 100%;
+        border-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .rightContainer{
+        padding: 0;
+        width: 80%;
+    }
+    .card{
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
